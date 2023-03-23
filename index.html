@@ -1,0 +1,979 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tahfidz SMPN 21 Purworejo</title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Program Tahfidz Ramadhan 1444 H / 2023 M">
+
+		<!-- Google / Search Engine Tags -->
+		<meta itemprop="name" content="Tahfidz SMPN 21 Purworejo">
+		<meta itemprop="description" content="Program Tahfidz Ramadhan 1444 H / 2023 M">
+		<meta itemprop="image" content="https://tahfidz.smpn21purworejo.sch.id/images/meta.webp">
+		
+		<!-- Facebook Meta Tags -->
+		<meta property="og:url" content="https://tahfidz.smpn21purworejo.sch.id">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Tahfidz SMPN 21 Purworejo">
+		<meta property="og:description" content="Program Tahfidz Ramadhan 1444 H / 2023 M">
+		<meta property="og:image" content="https://tahfidz.smpn21purworejo.sch.id/images/meta.webp">
+		
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Tahfidz SMPN 21 Purworejo">
+		<meta name="twitter:description" content="Program Tahfidz Ramadhan 1444 H / 2023 M">
+		<meta name="twitter:image" content="https://tahfidz.smpn21purworejo.sch.id/images/meta.webp">
+		
+
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script>
+			var host = "tahfidz.smpn21purworejo.sch.id";
+			if ((host == window.location.host) && (window.location.protocol != "https:"))
+				window.location.protocol = "https";
+			</script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/quran_logo.png" alt="" /></span>
+						<h1>Tahfidz Twenty One</h1>
+						<p>Selamat datang di program Tahfidz SMPN 21 Purworejo<br />
+						Ramadhan 1444 H / 2023 M</a>.</p>
+					</header>
+
+				<!-- Main -->
+
+				<div id="main">
+						<!-- Introduction -->
+						<section id="intro" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Irhamna bil Quran</h2>
+									</header>
+
+									<form id="name-form">
+										<label for="name">Sebelum mulai, tulis nama lengkap kamu:</label>
+										<input style="text-align: center;" type="text" id="name" name="name" placeholder="Tulis nama lengkap anda" required />
+										<input style="margin-top: 5px;" type="submit" value="Simpan" />
+									  </form>
+									
+									  <div id="welcome">
+										<h1><span id="username"></span></h1>
+										<div style="margin-top: -30px;margin-bottom: 20px;" id="logout">(edit nama)</div>
+									  </div>
+
+									  <script>
+										const nameForm = document.querySelector("#name-form");
+										const welcome = document.querySelector("#welcome");
+										const logout = document.querySelector("#logout");
+
+										const checkUser = () => {
+										const userName = localStorage.getItem("namasiswa");
+
+										if (userName) {
+											nameForm.style.display = "none";
+											welcome.style.display = "block";
+
+											const userNameElement = document.querySelector("#username");
+											userNameElement.textContent = userName;
+										} else {
+											nameForm.style.display = "block";
+											welcome.style.display = "none";
+										}
+										};
+
+										nameForm.addEventListener("submit", (e) => {
+										e.preventDefault();
+
+										const nameInput = document.querySelector("#name");
+										localStorage.setItem("namasiswa", nameInput.value);
+
+										nameInput.value = "";
+
+										checkUser();
+										});
+
+										logout.addEventListener("click", () => {
+										localStorage.removeItem("namasiswa");
+
+										checkUser();
+										});
+
+										checkUser();
+
+									  </script>
+
+									<ul class="actions">
+										<li><a href="status.html" class="button">Lihat status hafalan saya</a></li>
+									</ul>
+								</div>
+								<span class="image"><img src="images/21.jpg" alt="" /></span>
+							</div>
+						</section>
+				</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ اَلنَّاس (Surat An-Naas)</p>
+									<h2>قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ (﻿١﻿)﻿ مَلِكِ النَّاسِ (﻿٢﻿)﻿ إِلَـٰهِ ٱلنَّاسِ (﻿٣﻿)﻿ مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ (﻿٤﻿)﻿ ٱلَّذِى يُوَسۡوِسُ فِى صُدُورِ ٱلنَّاسِ (﻿٥﻿)﻿ مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ (﻿٦﻿)﻿
+									</h2>
+									<p>Surat ke-114, an-Naas, artinya Manusia, 6 ayat. Kandungannya tentang berlindung dan membentengi diri kepada Allah dari kejahatan setan dan bisikannya serta dari kejahatan-kejahatan yang tersembunyi.										
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/114.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a class="panel-group_btn" href="#" >
+											<span id="114" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+
+										</li>
+										<li><a href="114.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=قُلْ اَعُوْذُ بِرَبِّ النَّاسِ(1) مَلِكِ النَّاسِ(2) اِلٰهِ النَّاسِ(3) مِنْ شَرِّ الْوَسْوَاسِ ﳔ الْخَنَّاسِ(4) الَّذِیْ یُوَسْوِسُ فِیْ صُدُوْرِ النَّاسِ(5) مِنَ الْجِنَّةِ وَ النَّاسِ(6)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الفَلَق (Surat Al-Falaq)</p>
+									<h2>قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ (﻿١﻿)﻿ مِن شَرِّ مَا خَلَقَ (﻿٢﻿)﻿ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ (﻿٣﻿)﻿ وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلۡعُقَدِ (﻿٤﻿)﻿ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ (﻿٥﻿)﻿
+									</h2>
+									<p>Surat ke-113, al-Falaq, artinya waktu subuh, 5 ayat. Dijelaskan di dalam surat ini tentang menjaga diri dan berlindung kepada Allah dari kejahatan-kejahatan yang nyata.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/113.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="113" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li><a href="113.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِ(1) مِنْ شَرِّ مَا خَلَقَ(2) وَ مِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَ(3) وَ مِنْ شَرِّ النَّفّٰثٰتِ فِی الْعُقَدِ(4) وَ مِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ(5)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الإخلاص (Surat Al-Ikhlas)</p>
+									<h2>قُلۡ هُوَ ٱللَّهُ أَحَدٌ (﻿١﻿)﻿ ٱللَّهُ ٱلصَّمَدُ (﻿٢﻿)﻿ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ (﻿٣﻿)﻿ وَلَمۡ يَكُن لَّهُ ۥ ڪُفُوًا أَحَدٌ (﻿٤﻿)﻿
+									</h2>
+									<p>Surat ke-112 al-Ikhlas, artinya Keesaan Allah, 4 ayat. Yang dikandung di dalam surat ini antara lain penetapan keesaan Allah dalam kesempurnaan dan ketuhanan, serta kesucian Allah dari segala kekurangan.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/112.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="112" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li><a href="112.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=قُلْ هُوَ اللّٰهُ اَحَدٌ(1) اَللّٰهُ الصَّمَدُ(2) لَمْ یَلِدْ ﳔ وَ لَمْ یُوْلَدْ(3) وَ لَمْ یَكُنْ لَّهٗ كُفُوًا اَحَدٌ(4)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ لهب / المَسَد (Surat Al-Lahab/Al-Masad)</p>
+									<h2>تَبَّتۡ يَدَآ أَبِى لَهَبٍ۬ وَتَبَّ (﻿١﻿)﻿ مَآ أَغۡنَىٰ عَنۡهُ مَالُهُ ۥ وَمَا ڪَسَبَ (﻿٢﻿)﻿ سَيَصۡلَىٰ نَارً۬ا ذَاتَ لَهَبٍ۬ (﻿٣﻿)﻿ وَٱمۡرَأَتُهُ ۥ حَمَّالَةَ ٱلۡحَطَبِ (﻿٤﻿)﻿ فِى جِيدِهَا حَبۡلٌ۬ مِّن مَّسَدِۭ (﻿٥﻿)﻿
+									</h2>
+									<p>Surat ke-111 al-Lahab, artinya gejolak api, 5 ayat. Diterangkan dalam surat ini bahwa nasab dan kedudukan tidak bermanfaat bila berbalut kekufuran pada Allah.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/110.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="111" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li><a href="111.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=تَبَّتْ یَدَاۤ اَبِیْ لَهَبٍ وَّ تَبَّﭤ(1) مَاۤ اَغْنٰى عَنْهُ مَالُهٗ وَ مَا كَسَبَﭤ(2) سَیَصْلٰى نَارًا ذَاتَ لَهَبٍ(3) وَّ امْرَاَتُهٗؕ-حَمَّالَةَ الْحَطَبِ(4) فِیْ جِیْدِهَا حَبْلٌ مِّنْ مَّسَدٍ(5)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ النّصر (Surat An-Nasr)</p>
+									<h2>إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ (﻿١﻿)﻿ وَرَأَيۡتَ ٱلنَّاسَ يَدۡخُلُونَ فِى دِينِ ٱللَّهِ أَفۡوَاجً۬ا (﻿٢﻿)﻿ فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُ‌ۚ إِنَّهُ ۥ ڪَانَ تَوَّابَۢا (﻿٣﻿)﻿
+									</h2>
+									<p>Surat ke-110 an-Nashr, artinya pertolongan, 3 ayat. Kandungannya berisi penjelasan tentang Islam yang akhirnya mendapat pertolongan dan kemenangan, dan apa yang disyariatkan ketika hal itu terjadi.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/111.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="110" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li><a href="110.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=اِذَا جَآءَ نَصْرُ اللّٰهِ وَ الْفَتْحُ(1) وَ رَاَیْتَ النَّاسَ یَدْخُلُوْنَ فِیْ دِیْنِ اللّٰهِ اَفْوَاجًا(2) فَسَبِّحْ بِحَمْدِ رَبِّكَ وَ اسْتَغْفِرْهُﳳ-اِنَّهٗ كَانَ تَوَّابًا(3)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الکافِرون (Surat Al-Kafirun)</p>
+									<h2>قُلۡ يَـٰٓأَيُّہَا ٱلۡڪَـٰفِرُونَ (﻿١﻿)﻿ لَآ أَعۡبُدُ مَا تَعۡبُدُونَ (﻿٢﻿)﻿ وَلَآ أَنتُمۡ عَـٰبِدُونَ مَآ أَعۡبُدُ (﻿٣﻿)﻿ وَلَآ أَنَا۟ عَابِدٌ۬ مَّا عَبَدتُّمۡ (﻿٤﻿)﻿ وَلَآ أَنتُمۡ عَـٰبِدُونَ مَآ أَعۡبُدُ (﻿٥﻿)﻿ لَكُمۡ دِينُكُمۡ وَلِىَ دِينِ (﻿٦﻿)﻿
+									</h2>
+									<p>Surat ke-109 al-Kafirun, artinya Orang-orang kafir, 6 ayat. Berisikan penetapan tauhid ibadah dan berlepas dari kesyirikan serta perbedaan besar antara Islam dan syirik.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/109.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="109" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li><a href="109.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=قُلْ یٰۤاَیُّهَا الْكٰفِرُوْنَ(1) لَاۤ اَعْبُدُ مَا تَعْبُدُوْنَ(2) وَ لَاۤ اَنْتُمْ عٰبِدُوْنَ مَاۤ اَعْبُدُ(3) وَ لَاۤ اَنَا عَابِدٌ مَّا عَبَدْتُّمْ(4) وَ لَاۤ اَنْتُمْ عٰبِدُوْنَ مَاۤ اَعْبُدُﭤ(5) لَكُمْ دِیْنُكُمْ وَ لِیَ دِیْنِ(6)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الکَوثَر (Surat Al-Kausar)</p>
+									<h2>إِنَّآ أَعۡطَيۡنَـٰكَ ٱلۡكَوۡثَرَ (﻿١﻿)﻿ فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ (﻿٢﻿)﻿ إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ (﻿٣﻿)﻿
+									</h2>
+									<p>Surat ke-108 al-Kautsar, artinya Nikmat yang berlimpah, 3 ayat. Menjelaskan tentang karunia Allah terhadap Nabi -ṣallallāhu ‘alaihi wa sallam- dan terputusnya jalan bagi orang-orang yang membenci beliau.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/108.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="108" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li><a href="108.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=اِنَّاۤ اَعْطَیْنٰكَ الْكَوْثَرَﭤ(1) فَصَلِّ لِرَبِّكَ وَ انْحَرْﭤ(2) اِنَّ شَانِئَكَ هُوَ الْاَبْتَرُ(3)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ المَاعون (Surat Al-Ma'un)</p>
+									<h2>أَرَءَيۡتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ (﻿١﻿)﻿ فَذَٲلِكَ ٱلَّذِى يَدُعُّ ٱلۡيَتِيمَ (﻿٢﻿)﻿ وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ (﻿٣﻿)﻿ فَوَيۡلٌ۬ لِّلۡمُصَلِّينَ (﻿٤﻿)﻿ ٱلَّذِينَ هُمۡ عَن صَلَاتِہِمۡ سَاهُونَ (﻿٥﻿)﻿ ٱلَّذِينَ هُمۡ يُرَآءُونَ (﻿٦﻿)﻿ وَيَمۡنَعُونَ ٱلۡمَاعُونَ (﻿٧﻿)﻿
+									</h2>
+									<p>Surat ke-107 al-Ma’un, artinya Barang-barang yang berguna, 7 ayat. Mengandung penjelasan tentang akhlak orang-orang yang mendustakan agama dan Akhirat, sebagai bentuk peringatan untuk orang-orang yang beriman dan celaan atas orang-orang kafir.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/107.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="107" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li><a href="107.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=اَرَءَیْتَ الَّذِیْ یُكَذِّبُ بِالدِّیْنِﭤ(1) فَذٰلِكَ الَّذِیْ یَدُعُّ الْیَتِیْمَ(2) وَ لَا یَحُضُّ عَلٰى طَعَامِ الْمِسْكِیْنِﭤ(3) فَوَیْلٌ لِّلْمُصَلِّیْنَ(4) الَّذِیْنَ هُمْ عَنْ صَلَاتِهِمْ سَاهُوْنَ(5) الَّذِیْنَ هُمْ یُرَآءُوْنَ(6) وَ یَمْنَعُوْنَ الْمَاعُوْنَ(7)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ قُرَیش (Surat Quraisy)</p>
+									<h2>لِإِيلَـٰفِ قُرَيۡشٍ (﻿١﻿)﻿ إِیلَـٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ (﻿٢﻿)﻿ فَلۡيَعۡبُدُواْ رَبَّ هَـٰذَا ٱلۡبَيۡتِ (﻿٣﻿)﻿ ٱلَّذِىٓ أَطۡعَمَهُم مِّن جُوعٍ۬ وَءَامَنَهُم مِّنۡ خَوۡفِۭ (﻿٤﻿)﻿
+									</h2>
+									<p>Surat ke-106 al-Quraisy, artinya Suku Quraisy, 4 ayat. Berisikan pemaparan tentang karunia yang diberikan kepada kaum Quraisy dan apa yang menjadi kewajiban mereka terhadap karunia tersebut.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/106.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="106" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li><a href="106.html" class="button">Belajar Tafsir</a></li>
+										<li onclick="window.open('whatsapp://send?text=لِاِیْلٰفِ قُرَیْشٍ(1) اٖلٰفِهِمْ رِحْلَةَ الشِّتَآءِ وَ الصَّیْفِ(2) فَلْیَعْبُدُوْا رَبَّ هٰذَا الْبَیْتِ(3) الَّذِیْۤ اَطْعَمَهُمْ مِّنْ جُوْ عٍ ﳔ وَّ اٰمَنَهُمْ مِّنْ خَوْفٍ(4)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الفِیل (Surat Al-Fil)</p>
+									<h2>أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِأَصۡحَـٰبِ ٱلۡفِيلِ (﻿١﻿)﻿ أَلَمۡ يَجۡعَلۡ كَيۡدَهُمۡ فِى تَضۡلِيلٍ۬ (﻿٢﻿)﻿ وَأَرۡسَلَ عَلَيۡہِمۡ طَيۡرًا أَبَابِيلَ (﻿٣﻿)﻿ تَرۡمِيهِم بِحِجَارَةٍ۬ مِّن سِجِّيلٍ۬ (﻿٤﻿)﻿ فَجَعَلَهُمۡ كَعَصۡفٍ۬ مَّأۡڪُولِۭ (﻿٥﻿)﻿
+									</h2>
+									<p>Surat ke-105 al-Fil, artinya Gajah, 5 ayat. Di dalam surat yang mulia ini memiliki kandungan penampakan kekuasaan Allah dalam menjaga Baitullah, sebagai bentuk peringatan dan karunia.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/105.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="105" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=اَلَمْ تَرَ كَیْفَ فَعَلَ رَبُّكَ بِاَصْحٰبِ الْفِیْلِﭤ(1) اَلَمْ یَجْعَلْ كَیْدَهُمْ فِیْ تَضْلِیْلٍ(2) وَّ اَرْسَلَ عَلَیْهِمْ طَیْرًا اَبَابِیْلَ(3) تَرْمِیْهِمْ بِحِجَارَةٍ مِّنْ سِجِّیْلٍ(4) فَجَعَلَهُمْ كَعَصْفٍ مَّاْكُوْلٍ(5)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الهُمَزة (Surat Al-Humazah)</p>
+									<h2>وَيۡلٌ۬ لِّڪُلِّ هُمَزَةٍ۬ لُّمَزَةٍ (﻿١﻿)﻿ ٱلَّذِى جَمَعَ مَالاً۬ وَعَدَّدَهُ ۥ (﻿٢﻿)﻿ يَحۡسَبُ أَنَّ مَالَهُ ۥۤ أَخۡلَدَهُ ۥ (﻿٣﻿)﻿ كَلَّا‌ۖ لَيُنۢبَذَنَّ فِى ٱلۡحُطَمَةِ (﻿٤﻿)﻿ وَمَآ أَدۡرَٮٰكَ مَا ٱلۡحُطَمَةُ (﻿٥﻿)﻿ نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ (﻿٦﻿)﻿ ٱلَّتِى تَطَّلِعُ عَلَى ٱلۡأَفۡـِٔدَةِ (﻿٧﻿)﻿ إِنَّہَا عَلَيۡہِم مُّؤۡصَدَةٌ۬ (﻿٨﻿)﻿ فِى عَمَدٍ۬ مُّمَدَّدَةِۭ (﻿٩﻿)﻿
+									</h2>
+									<p>Surat ke-104 al-Humazah, artinya Pengumpat, 9 ayat. Di dalam surat ini terdapat ancaman terhadap orang-orang yang sombong, yang mengolok-olok agama dan para pemeluknya.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/104.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="104" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=وَیْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةِ ﹰ(1) الَّذِیْ جَمَعَ مَالًا وَّ عَدَّدَهٗ(2) یَحْسَبُ اَنَّ مَالَهٗۤ اَخْلَدَهٗ(3) كَلَّا لَیُنْۢبَذَنَّ فِی الْحُطَمَةِ(4) وَ مَاۤ اَدْرٰىكَ مَا الْحُطَمَةُﭤ(5) نَارُ اللّٰهِ الْمُوْقَدَةُ(6) الَّتِیْ تَطَّلِعُ عَلَى الْاَفْـٕدَةِﭤ(7) اِنَّهَا عَلَیْهِمْ مُّؤْصَدَةٌ(8) فِیْ عَمَدٍ مُّمَدَّدَةٍ(9)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ العَصر (Surat Al-'Asr)</p>
+									<h2>وَٱلۡعَصۡرِ (﻿١﻿)﻿ إِنَّ ٱلۡإِنسَـٰنَ لَفِى خُسۡرٍ (﻿٢﻿)﻿ إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ (﻿٣﻿)﻿
+									</h2>
+									<p>Surat ke-103 al-‘Ashr, artinya Masa/Waktu, 3 ayat. Surat ini berisikan penjelasan tentang hakikat keuntungan dan kerugian di dalam kehidupan, serta peringatan tentang pentingnya waktu yang dijalani oleh manusia.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/103.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="103" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=وَ الْعَصْرِ(1) اِنَّ الْاِنْسَانَ لَفِیْ خُسْرٍ(2) اِلَّا الَّذِیْنَ اٰمَنُوْا وَ عَمِلُوا الصّٰلِحٰتِ وَ تَوَاصَوْا بِالْحَقِّ ﳔ وَ تَوَاصَوْا بِالصَّبْرِ(3)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ التّکاثُر (Surat At-Takathur)</p>
+									<h2>أَلۡهَٮٰكُمُ ٱلتَّكَاثُرُ (﻿١﻿)﻿ حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ (﻿٢﻿)﻿ كَلَّا سَوۡفَ تَعۡلَمُونَ (﻿٣﻿)﻿ ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ (﻿٤﻿)﻿ كَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡيَقِينِ (﻿٥﻿)﻿ لَتَرَوُنَّ ٱلۡجَحِيمَ (﻿٦﻿)﻿ ثُمَّ لَتَرَوُنَّہَا عَيۡنَ ٱلۡيَقِينِ (﻿٧﻿)﻿ ثُمَّ لَتُسۡـَٔلُنَّ يَوۡمَٮِٕذٍ عَنِ ٱلنَّعِيمِ (﻿٨﻿)﻿
+									</h2>
+									<p>Surat ke-102 at-Takatsur, artinya Bermegah-megahan, 8 ayat. Berisikan peringatan kepada orang yang sibuk dengan urusan dunia agar ingat kematian dan hari perhitungan.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/102.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="102" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=اَلْهٰىكُمُ التَّكَاثُرُ(1) حَتّٰى زُرْتُمُ الْمَقَابِرَﭤ(2) كَلَّا سَوْفَ تَعْلَمُوْنَ(3) ثُمَّ كَلَّا سَوْفَ تَعْلَمُوْنَﭤ(4) كَلَّا لَوْ تَعْلَمُوْنَ عِلْمَ الْیَقِیْنِﭤ(5) لَتَرَوُنَّ الْجَحِیْمَ(6) ثُمَّ لَتَرَوُنَّهَا عَیْنَ الْیَقِیْنِ(7) ثُمَّ لَتُسْــٴَـلُنَّ یَوْمَىٕذٍ عَنِ النَّعِیْمِ(8)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ القَارعَة (Surat Al-Qari'ah)</p>
+									<h2>ٱلۡقَارِعَةُ (﻿١﻿)﻿ مَا ٱلۡقَارِعَةُ (﻿٢﻿)﻿ وَمَآ أَدۡرَٮٰكَ مَا ٱلۡقَارِعَةُ (﻿٣﻿)﻿ يَوۡمَ يَكُونُ ٱلنَّاسُ ڪَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ (﻿٤﻿)﻿ وَتَكُونُ ٱلۡجِبَالُ ڪَٱلۡعِهۡنِ ٱلۡمَنفُوشِ (﻿٥﻿)﻿ فَأَمَّا مَن ثَقُلَتۡ مَوَٲزِينُهُ ۥ (﻿٦﻿)﻿ فَهُوَ فِى عِيشَةٍ۬ رَّاضِيَةٍ۬ (﻿٧﻿)﻿ وَأَمَّا مَنۡ خَفَّتۡ مَوَٲزِينُهُ ۥ (﻿٨﻿)﻿ فَأُمُّهُ ۥ هَاوِيَةٌ۬ (﻿٩﻿)﻿ وَمَآ أَدۡرَٮٰكَ مَا هِيَهۡ (﻿١٠﻿)﻿ نَارٌ حَامِيَةُۢ (﻿١١﻿)﻿
+									</h2>
+									<p>Surat ke-101 al-Qari’ah, artinya Hari Kiamat, 11 ayat. Di antara kandungan penting dari surat ini adalah sentuhan terhadap hati agar teringat huru-hara Kiamat. Tentang guncangan yang luar biasa di hari tersebut.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/101.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="101" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=اَلْقَارِعَةُ(1) مَا الْقَارِعَةُ(2) وَ مَاۤ اَدْرٰىكَ مَا الْقَارِعَةُﭤ(3) یَوْمَ یَكُوْنُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوْثِ(4) وَ تَكُوْنُ الْجِبَالُ كَالْعِهْنِ الْمَنْفُوْشِﭤ(5) فَاَمَّا مَنْ ثَقُلَتْ مَوَازِیْنُهٗ(6) فَهُوَ فِیْ عِیْشَةٍ رَّاضِیَةٍﭤ(7) وَ اَمَّا مَنْ خَفَّتْ مَوَازِیْنُهٗ(8) فَاُمُّهٗ هَاوِیَةٌﭤ(9) وَ مَاۤ اَدْرٰىكَ مَاهِیَهْﭤ(10) نَارٌ حَامِیَةٌ(11)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ العَادیَات (Surat Al-'Adiyat)</p>
+									<h2>وَٱلۡعَـٰدِيَـٰتِ ضَبۡحً۬ا (﻿١﻿)﻿ فَٱلۡمُورِيَـٰتِ قَدۡحً۬ا (﻿٢﻿)﻿ فَٱلۡمُغِيرَٲتِ صُبۡحً۬ا (﻿٣﻿)﻿ فَأَثَرۡنَ بِهِۦ نَقۡعً۬ا (﻿٤﻿)﻿ فَوَسَطۡنَ بِهِۦ جَمۡعًا (﻿٥﻿)﻿ إِنَّ ٱلۡإِنسَـٰنَ لِرَبِّهِۦ لَكَنُودٌ۬ (﻿٦﻿)﻿ وَإِنَّهُ ۥ عَلَىٰ ذَٲلِكَ لَشَہِيدٌ۬ (﻿٧﻿)﻿ وَإِنَّهُ ۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ (﻿٨﻿)﻿ ۞ أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِى ٱلۡقُبُورِ (﻿٩﻿)﻿ وَحُصِّلَ مَا فِى ٱلصُّدُورِ (﻿١٠﻿)﻿ إِنَّ رَبَّہُم بِہِمۡ يَوۡمَٮِٕذٍ۬ لَّخَبِيرُۢ (﻿١١﻿)﻿
+									</h2>
+									<p>Surat ke-100 al-‘Adiyat, artinya Berlari kencang, 11 ayat. Berisikan penjelasan tentang sifat manusia yang perhatian terhadap urusan dunia, sebagai pengingat baginya tentang tempat kembalinya dan sebagai motivasi baginya agar memperbaiki jalannya.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/100.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="100" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=وَ الْعٰدِیٰتِ ضَبْحًا(1) فَالْمُوْرِیٰتِ قَدْحًا(2) فَالْمُغِیْرٰتِ صُبْحًا(3) فَاَثَرْنَ بِهٖ نَقْعًا(4) فَوَسَطْنَ بِهٖ جَمْعًا(5) اِنَّ الْاِنْسَانَ لِرَبِّهٖ لَكَنُوْدٌ(6) وَ اِنَّهٗ عَلٰى ذٰلِكَ لَشَهِیْدٌ(7) وَ اِنَّهٗ لِحُبِّ الْخَیْرِ لَشَدِیْدٌﭤ(8) اَفَلَا یَعْلَمُ اِذَا بُعْثِرَ مَا فِی الْقُبُوْرِ(9) وَ حُصِّلَ مَا فِی الصُّدُوْرِ(10) اِنَّ رَبَّهُمْ بِهِمْ یَوْمَىٕذٍ لَّخَبِیْرٌ(11)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الزّلزَلة (Surat Az-Zalzalah)</p>
+									<h2>إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا (﻿١﻿)﻿ وَأَخۡرَجَتِ ٱلۡأَرۡضُ أَثۡقَالَهَا (﻿٢﻿)﻿ وَقَالَ ٱلۡإِنسَـٰنُ مَا لَهَا (﻿٣﻿)﻿ يَوۡمَٮِٕذٍ۬ تُحَدِّثُ أَخۡبَارَهَا (﻿٤﻿)﻿ بِأَنَّ رَبَّكَ أَوۡحَىٰ لَهَا (﻿٥﻿)﻿ يَوۡمَٮِٕذٍ۬ يَصۡدُرُ ٱلنَّاسُ أَشۡتَاتً۬ا لِّيُرَوۡاْ أَعۡمَـٰلَهُمۡ (﻿٦﻿)﻿ فَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٍ خَيۡرً۬ا يَرَهُ ۥ (﻿٧﻿)﻿ وَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٍ۬ شَرًّ۬ا يَرَهُ ۥ (﻿٨﻿)﻿
+									</h2>
+									<p>Surat ke-99 az-Zalzalah, artinya Kegoncangan, 8 ayat. Di antara kandungan penting surat ini adalah sentuhan terhadap hati yang lalai agar meyakini adanya hari Hisab dan perhitungan yang rinci.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/099.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="099" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=اِذَا زُلْزِلَتِ الْاَرْضُ زِلْزَالَهَا(1) وَ اَخْرَجَتِ الْاَرْضُ اَثْقَالَهَا(2) وَ قَالَ الْاِنْسَانُ مَا لَهَا(3) یَوْمَىٕذٍ تُحَدِّثُ اَخْبَارَهَا(4) بِاَنَّ رَبَّكَ اَوْحٰى لَهَاﭤ(5) یَوْمَىٕذٍ یَّصْدُرُ النَّاسُ اَشْتَاتًا ﳔ لِّیُرَوْا اَعْمَالَهُمْﭤ(6) فَمَنْ یَّعْمَلْ مِثْقَالَ ذَرَّةٍ خَیْرًا یَّرَهٗﭤ(7) وَ مَنْ یَّعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا یَّرَهٗ(8)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ البَیّنَة (Surat Al-Bayyinah)</p>
+									<h2>لَمۡ يَكُنِ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ وَٱلۡمُشۡرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأۡتِيَہُمُ ٱلۡبَيِّنَةُ (﻿١﻿)﻿ رَسُولٌ۬ مِّنَ ٱللَّهِ يَتۡلُواْ صُحُفً۬ا مُّطَهَّرَةً۬ (﻿٢﻿)﻿ فِيہَا كُتُبٌ۬ قَيِّمَةٌ۬ (﻿٣﻿)﻿ وَمَا تَفَرَّقَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَـٰبَ إِلَّا مِنۢ بَعۡدِ مَا جَآءَتۡہُمُ ٱلۡبَيِّنَةُ (﻿٤﻿)﻿ وَمَآ أُمِرُوٓاْ إِلَّا لِيَعۡبُدُواْ ٱللَّهَ مُخۡلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُواْ ٱلصَّلَوٰةَ وَيُؤۡتُواْ ٱلزَّكَوٰةَ‌ۚ وَذَٲلِكَ دِينُ ٱلۡقَيِّمَةِ (﻿٥﻿)﻿ إِنَّ ٱلَّذِينَ كَفَرُواْ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ وَٱلۡمُشۡرِكِينَ فِى نَارِ جَهَنَّمَ خَـٰلِدِينَ فِيہَآ‌ۚ أُوْلَـٰٓٮِٕكَ هُمۡ شَرُّ ٱلۡبَرِيَّةِ (﻿٦﻿)﻿ إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَـٰتِ أُوْلَـٰٓٮِٕكَ هُمۡ خَيۡرُ ٱلۡبَرِيَّةِ (﻿٧﻿)﻿ جَزَآؤُهُمۡ عِندَ رَبِّہِمۡ جَنَّـٰتُ عَدۡنٍ۬ تَجۡرِى مِن تَحۡتِہَا ٱلۡأَنۡہَـٰرُ خَـٰلِدِينَ فِيہَآ أَبَدً۬ا‌ۖ رَّضِىَ ٱللَّهُ عَنۡہُمۡ وَرَضُواْ عَنۡهُ‌ۚ ذَٲلِكَ لِمَنۡ خَشِىَ رَبَّهُ ۥ (﻿٨﻿)﻿
+									</h2>
+									<p>Surat ke-98 al-Bayyinah, artinya Pembuktian, 8 ayat. Surat yang agung ini mengandung penjelasan tentang kedudukan risalah Rasul -ṣallallāhu ‘alaihi wa sallam-, kejelasannya dan kesempurnaannya.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/098.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="098" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=لَمْ یَكُنِ الَّذِیْنَ كَفَرُوْا مِنْ اَهْلِ الْكِتٰبِ وَ الْمُشْرِكِیْنَ مُنْفَكِّیْنَ حَتّٰى تَاْتِیَهُمُ الْبَیِّنَةُ(1) رَسُوْلٌ مِّنَ اللّٰهِ یَتْلُوْا صُحُفًا مُّطَهَّرَةً(2) فِیْهَا كُتُبٌ قَیِّمَةٌﭤ(3) وَ مَا تَفَرَّقَ الَّذِیْنَ اُوْتُوا الْكِتٰبَ اِلَّا مِنْۢ بَعْدِ مَا جَآءَتْهُمُ الْبَیِّنَةُﭤ(4) وَ مَاۤ اُمِرُوْۤا اِلَّا لِیَعْبُدُوا اللّٰهَ مُخْلِصِیْنَ لَهُ الدِّیْنَ ﳔ حُنَفَآءَ وَ یُقِیْمُوا الصَّلٰوةَ وَ یُؤْتُوا الزَّكٰوةَ وَ ذٰلِكَ دِیْنُ الْقَیِّمَةِﭤ(5) اِنَّ الَّذِیْنَ كَفَرُوْا مِنْ اَهْلِ الْكِتٰبِ وَ الْمُشْرِكِیْنَ فِیْ نَارِ جَهَنَّمَ خٰلِدِیْنَ فِیْهَاؕ-اُولٰٓىٕكَ هُمْ شَرُّ الْبَرِیَّةِﭤ(6) اِنَّ الَّذِیْنَ اٰمَنُوْا وَ عَمِلُوا الصّٰلِحٰتِۙ-اُولٰٓىٕكَ هُمْ خَیْرُ الْبَرِیَّةِﭤ(7) جَزَآؤُهُمْ عِنْدَ رَبِّهِمْ جَنّٰتُ عَدْنٍ تَجْرِیْ مِنْ تَحْتِهَا الْاَنْهٰرُ خٰلِدِیْنَ فِیْهَاۤ اَبَدًاؕ-رَضِیَ اللّٰهُ عَنْهُمْ وَ رَضُوْا عَنْهُؕ-ذٰلِكَ لِمَنْ خَشِیَ رَبَّهٗ(8)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ القَدر (Surat Al-Qadr)</p>
+									<h2>إِنَّآ أَنزَلۡنَـٰهُ فِى لَيۡلَةِ ٱلۡقَدۡرِ (﻿١﻿)﻿ وَمَآ أَدۡرَٮٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ (﻿٢﻿)﻿ لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٌ۬ مِّنۡ أَلۡفِ شَہۡرٍ۬ (﻿٣﻿)﻿ تَنَزَّلُ ٱلۡمَلَـٰٓٮِٕكَةُ وَٱلرُّوحُ فِيہَا بِإِذۡنِ رَبِّہِم مِّن كُلِّ أَمۡرٍ۬ (﻿٤﻿)﻿ سَلَـٰمٌ هِىَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ (﻿٥﻿)﻿
+									</h2>
+									<p>Surat ke-97 al-Qadr, artinya Kemuliaan, 5 ayat. Dalam surat yang agung ini terdapat penjelasan tentang keagungan dan keutamaan Lailatul Qadar, dan apa yang diturunkan pada malam itu.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/097.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="097" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=اِنَّاۤ اَنْزَلْنٰهُ فِیْ لَیْلَةِ الْقَدْرِ(1) وَ مَاۤ اَدْرٰىكَ مَا لَیْلَةُ الْقَدْرِﭤ(2) لَیْلَةُ الْقَدْرِ ﳔ خَیْرٌ مِّنْ اَلْفِ شَهْرٍ(3) تَنَزَّلُ الْمَلٰٓىٕكَةُ وَ الرُّوْحُ فِیْهَا بِاِذْنِ رَبِّهِمْۚ-مِنْ كُلِّ اَمْرٍ(4) سَلٰمٌ ﱡ هِیَ حَتّٰى مَطْلَعِ الْفَجْرِ(5)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ العَلق (Surat Al-'Alaq)</p>
+									<h2>ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِى خَلَقَ (﻿١﻿)﻿ خَلَقَ ٱلۡإِنسَـٰنَ مِنۡ عَلَقٍ (﻿٢﻿)﻿ ٱقۡرَأۡ وَرَبُّكَ ٱلۡأَكۡرَمُ (﻿٣﻿)﻿ ٱلَّذِى عَلَّمَ بِٱلۡقَلَمِ (﻿٤﻿)﻿ عَلَّمَ ٱلۡإِنسَـٰنَ مَا لَمۡ يَعۡلَمۡ (﻿٥﻿)﻿ كَلَّآ إِنَّ ٱلۡإِنسَـٰنَ لَيَطۡغَىٰٓ (﻿٦﻿)﻿ أَن رَّءَاهُ ٱسۡتَغۡنَىٰٓ (﻿٧﻿)﻿ إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجۡعَىٰٓ (﻿٨﻿)﻿ أَرَءَيۡتَ ٱلَّذِى يَنۡهَىٰ (﻿٩﻿)﻿ عَبۡدًا إِذَا صَلَّىٰٓ (﻿١٠﻿)﻿ أَرَءَيۡتَ إِن كَانَ عَلَى ٱلۡهُدَىٰٓ (﻿١١﻿)﻿ أَوۡ أَمَرَ بِٱلتَّقۡوَىٰٓ (﻿١٢﻿)﻿ أَرَءَيۡتَ إِن كَذَّبَ وَتَوَلَّىٰٓ (﻿١٣﻿)﻿ أَلَمۡ يَعۡلَم بِأَنَّ ٱللَّهَ يَرَىٰ (﻿١٤﻿)﻿ كَلَّا لَٮِٕن لَّمۡ يَنتَهِ لَنَسۡفَعَۢا بِٱلنَّاصِيَةِ (﻿١٥﻿)﻿ نَاصِيَةٍ۬ كَـٰذِبَةٍ خَاطِئَةٍ۬ (﻿١٦﻿)﻿ فَلۡيَدۡعُ نَادِيَهُ ۥ (﻿١٧﻿)﻿ سَنَدۡعُ ٱلزَّبَانِيَةَ (﻿١٨﻿)﻿ كَلَّا لَا تُطِعۡهُ وَٱسۡجُدۡ وَٱقۡتَرِب ۩ (﻿١٩﻿)﻿
+									</h2>
+									<p>Surat ke-96 al-‘Alaq, artinya Segumpal Darah, 19 ayat. Berisikan penjelasan tentang kesempurnaan manusia itu dengan ilmu dan wahyu yang membangkitkan ketergantungan dan kepatuhan seseorang kepada Rabbnya, serta kekurangan manusia itu karena menyelisihi hal itu.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/096.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="096" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=اِقْرَاْ بِاسْمِ رَبِّكَ الَّذِیْ خَلَقَ(1) خَلَقَ الْاِنْسَانَ مِنْ عَلَقٍ(2) اِقْرَاْ وَ رَبُّكَ الْاَكْرَمُ(3) الَّذِیْ عَلَّمَ بِالْقَلَمِ(4) عَلَّمَ الْاِنْسَانَ مَا لَمْ یَعْلَمْﭤ(5) كَلَّاۤ اِنَّ الْاِنْسَانَ لَیَطْغٰۤى(6) اَنْ رَّاٰهُ اسْتَغْنٰىﭤ(7) اِنَّ اِلٰى رَبِّكَ الرُّجْعٰىﭤ(8) اَرَءَیْتَ الَّذِیْ یَنْهٰى(9) عَبْدًا اِذَا صَلّٰىﭤ(10) اَرَءَیْتَ اِنْ كَانَ عَلَى الْهُدٰۤى(11) اَوْ اَمَرَ بِالتَّقْوٰىﭤ(12) اَرَءَیْتَ اِنْ كَذَّبَ وَ تَوَلّٰىﭤ(13) اَلَمْ یَعْلَمْ بِاَنَّ اللّٰهَ یَرٰىﭤ(14) كَلَّا لَىٕنْ لَّمْ یَنْتَهِ ﳔ لَنَسْفَعًۢا بِالنَّاصِیَةِ(15) نَاصِیَةٍ كَاذِبَةٍ خَاطِئَةٍ(16) فَلْیَدْعُ نَادِیَهٗ(17) سَنَدْعُ الزَّبَانِیَةَ(18) كَلَّاؕ-لَا تُطِعْهُ وَ اسْجُدْ وَ اقْتَرِبْ(19)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ التِّین (Surat At-Tin)</p>
+									<h2>وَٱلتِّينِ وَٱلزَّيۡتُونِ (﻿١﻿)﻿ وَطُورِ سِينِينَ (﻿٢﻿)﻿ وَهَـٰذَا ٱلۡبَلَدِ ٱلۡأَمِينِ (﻿٣﻿)﻿ لَقَدۡ خَلَقۡنَا ٱلۡإِنسَـٰنَ فِىٓ أَحۡسَنِ تَقۡوِيمٍ۬ (﻿٤﻿)﻿ ثُمَّ رَدَدۡنَـٰهُ أَسۡفَلَ سَـٰفِلِينَ (﻿٥﻿)﻿ إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَـٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٍ۬ (﻿٦﻿)﻿ فَمَا يُكَذِّبُكَ بَعۡدُ بِٱلدِّينِ (﻿٧﻿)﻿ أَلَيۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَـٰكِمِينَ (﻿٨﻿)﻿
+									</h2>
+									<p>Surat ke-95 at-Tin, artinya Buah Tin, 8 ayat. Surat ini berisikan penjelasan tentang nilai manusia dan kemuliaannya karena agamanya, sementara rendahnya manusia dan kehinaannya karena meninggalkan agamanya, karena itu Allah bersumpah dengan berbagai tempat turunnya wahyu.
+									</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/095.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="095" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=وَ التِّیْنِ وَ الزَّیْتُوْنِ(1) وَ طُوْرِ سِیْنِیْنَ(2) وَ هٰذَا الْبَلَدِ الْاَمِیْنِ(3) لَقَدْ خَلَقْنَا الْاِنْسَانَ فِیْۤ اَحْسَنِ تَقْوِیْمٍ(4) ثُمَّ رَدَدْنٰهُ اَسْفَلَ سٰفِلِیْنَ(5) اِلَّا الَّذِیْنَ اٰمَنُوْا وَ عَمِلُوا الصّٰلِحٰتِ فَلَهُمْ اَجْرٌ غَیْرُ مَمْنُوْنٍﭤ(6) فَمَا یُكَذِّبُكَ بَعْدُ بِالدِّیْنِﭤ(7) اَلَیْسَ اللّٰهُ بِاَحْكَمِ الْحٰكِمِیْنَ(8)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الشَّرح (Surat al-Insyirah)</p>
+									<h2>أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ (﻿١﻿)﻿ وَوَضَعۡنَا عَنكَ وِزۡرَكَ (﻿٢﻿)﻿ ٱلَّذِىٓ أَنقَضَ ظَهۡرَكَ (﻿٣﻿)﻿ وَرَفَعۡنَا لَكَ ذِكۡرَكَ (﻿٤﻿)﻿ فَإِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرًا (﻿٥﻿)﻿ إِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرً۬ا (﻿٦﻿)﻿ فَإِذَا فَرَغۡتَ فَٱنصَبۡ (﻿٧﻿)﻿ وَإِلَىٰ رَبِّكَ فَٱرۡغَب (﻿٨﻿)﻿
+									</h2>
+									<p>Surat ke-94 al-Insyirah, artinya Melapangkan, 8 ayat. Surat ini mengingatkan tentang kesempurnaan pemberian Allah kepada Nabi-Nya -ṣallallāhu ‘alaihi wa sallam- dengan hilangnya kesedihan, kesempitan dan kesusahan dari beliau serta apa yang berkenaan dengan hal itu.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/094.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="094" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=اَلَمْ نَشْرَحْ لَكَ صَدْرَكَ(1) وَ وَضَعْنَا عَنْكَ وِزْرَكَ(2) الَّذِیْۤ اَنْقَضَ ظَهْرَكَ(3) وَ رَفَعْنَا لَكَ ذِكْرَكَﭤ(4) فَاِنَّ مَعَ الْعُسْرِ یُسْرًا(5) اِنَّ مَعَ الْعُسْرِ یُسْرًاﭤ(6) فَاِذَا فَرَغْتَ فَانْصَبْ(7) وَ اِلٰى رَبِّكَ فَارْغَبْ(8)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الِضُّحىٰ (Surat Ad-Duhaa)</p>
+									<h2>وَٱلضُّحَىٰ (﻿١﻿)﻿ وَٱلَّيۡلِ إِذَا سَجَىٰ (﻿٢﻿)﻿ مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ (﻿٣﻿)﻿ وَلَلۡأَخِرَةُ خَيۡرٌ۬ لَّكَ مِنَ ٱلۡأُولَىٰ (﻿٤﻿)﻿ وَلَسَوۡفَ يُعۡطِيكَ رَبُّكَ فَتَرۡضَىٰٓ (﻿٥﻿)﻿ أَلَمۡ يَجِدۡكَ يَتِيمً۬ا فَـَٔاوَىٰ (﻿٦﻿)﻿ وَوَجَدَكَ ضَآلاًّ۬ فَهَدَىٰ (﻿٧﻿)﻿ وَوَجَدَكَ عَآٮِٕلاً۬ فَأَغۡنَىٰ (﻿٨﻿)﻿ فَأَمَّا ٱلۡيَتِيمَ فَلَا تَقۡهَرۡ (﻿٩﻿)﻿ وَأَمَّا ٱلسَّآٮِٕلَ فَلَا تَنۡہَرۡ (﻿١٠﻿)﻿ وَأَمَّا بِنِعۡمَةِ رَبِّكَ فَحَدِّثۡ (﻿١١﻿)﻿
+									</h2>
+									<p>Surat ke-93 adh-Dhuha, artinya Waktu matahari sepenggalahan naik (Dhuha), 11 ayat. Berisikan penyebutan penjagaan Allah terhadap Nabi-Nya -ṣallallāhu ‘alaihi wa sallam- dan karunia wahyu yang diberikan kepada beliau serta kekalnya kenikmatan itu, sebagai bentuk hiburan bagi beliau dan peringatan bagi orang yang beriman agar bersyukur.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/093.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="093" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=وَ الضُّحٰى(1) وَ الَّیْلِ اِذَا سَجٰى(2) مَا وَدَّعَكَ رَبُّكَ وَ مَا قَلٰىﭤ(3) وَ لَلْاٰخِرَةُ خَیْرٌ لَّكَ مِنَ الْاُوْلٰىﭤ(4) وَ لَسَوْفَ یُعْطِیْكَ رَبُّكَ فَتَرْضٰىﭤ(5) اَلَمْ یَجِدْكَ یَتِیْمًا فَاٰوٰى(6) وَ وَجَدَكَ ضَآلًّا فَهَدٰى(7) وَ وَجَدَكَ عَآىٕلًا فَاَغْنٰىﭤ(8) فَاَمَّا الْیَتِیْمَ فَلَا تَقْهَرْﭤ(9) وَ اَمَّا السَّآىٕلَ فَلَا تَنْهَرْﭤ(10) وَ اَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ(11)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ اللیْل (Surat Al-Layl)</p>
+									<h2>وَٱلَّيۡلِ إِذَا يَغۡشَىٰ (﻿١﻿)﻿ وَٱلنَّہَارِ إِذَا تَجَلَّىٰ (﻿٢﻿)﻿ وَمَا خَلَقَ ٱلذَّكَرَ وَٱلۡأُنثَىٰٓ (﻿٣﻿)﻿ إِنَّ سَعۡيَكُمۡ لَشَتَّىٰ (﻿٤﻿)﻿ فَأَمَّا مَنۡ أَعۡطَىٰ وَٱتَّقَىٰ (﻿٥﻿)﻿ وَصَدَّقَ بِٱلۡحُسۡنَىٰ (﻿٦﻿)﻿ فَسَنُيَسِّرُهُ ۥ لِلۡيُسۡرَىٰ (﻿٧﻿)﻿ وَأَمَّا مَنۢ بَخِلَ وَٱسۡتَغۡنَىٰ (﻿٨﻿)﻿ وَكَذَّبَ بِٱلۡحُسۡنَىٰ (﻿٩﻿)﻿ فَسَنُيَسِّرُهُ ۥ لِلۡعُسۡرَىٰ (﻿١٠﻿)﻿ وَمَا يُغۡنِى عَنۡهُ مَالُهُ ۥۤ إِذَا تَرَدَّىٰٓ (﻿١١﻿)﻿ إِنَّ عَلَيۡنَا لَلۡهُدَىٰ (﻿١٢﻿)﻿ وَإِنَّ لَنَا لَلۡأَخِرَةَ وَٱلۡأُولَىٰ (﻿١٣﻿)﻿ فَأَنذَرۡتُكُمۡ نَارً۬ا تَلَظَّىٰ (﻿١٤﻿)﻿ لَا يَصۡلَٮٰهَآ إِلَّا ٱلۡأَشۡقَى (﻿١٥﻿)﻿ ٱلَّذِى كَذَّبَ وَتَوَلَّىٰ (﻿١٦﻿)﻿ وَسَيُجَنَّبُہَا ٱلۡأَتۡقَى (﻿١٧﻿)﻿ ٱلَّذِى يُؤۡتِى مَالَهُ ۥ يَتَزَكَّىٰ (﻿١٨﻿)﻿ وَمَا لِأَحَدٍ عِندَهُ ۥ مِن نِّعۡمَةٍ۬ تُجۡزَىٰٓ (﻿١٩﻿)﻿ إِلَّا ٱبۡتِغَآءَ وَجۡهِ رَبِّهِ ٱلۡأَعۡلَىٰ (﻿٢٠﻿)﻿ وَلَسَوۡفَ يَرۡضَىٰ (﻿٢١﻿)﻿
+									</h2>
+									<p>Surat ke-92 al-Lail, artinya Malam, 21 ayat. Kandungan surat ini penjelasan tentang perbedaan antara ayat-ayat, jiwa dan amal perbuatannya, untuk menampakkan keunggulan antara orang-orang mukmin dan orang-orang kafir.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/092.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="092" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=وَ الَّیْلِ اِذَا یَغْشٰى(1) وَ النَّهَارِ اِذَا تَجَلّٰى(2) وَ مَا خَلَقَ الذَّكَرَ وَ الْاُنْثٰۤى(3) اِنَّ سَعْیَكُمْ لَشَتّٰىﭤ(4) فَاَمَّا مَنْ اَعْطٰى وَ اتَّقٰى(5) وَ صَدَّقَ بِالْحُسْنٰى(6) فَسَنُیَسِّرُهٗ لِلْیُسْرٰىﭤ(7) وَ اَمَّا مَنْۢ بَخِلَ وَ اسْتَغْنٰى(8) وَ كَذَّبَ بِالْحُسْنٰى(9) فَسَنُیَسِّرُهٗ لِلْعُسْرٰىﭤ(10) وَ مَا یُغْنِیْ عَنْهُ مَالُهٗۤ اِذَا تَرَدّٰىﭤ(11) اِنَّ عَلَیْنَا لَلْهُدٰى(12) وَ اِنَّ لَنَا لَلْاٰخِرَةَ وَ الْاُوْلٰى(13) فَاَنْذَرْتُكُمْ نَارًا تَلَظّٰى(14) لَا یَصْلٰىهَاۤ اِلَّا الْاَشْقَى(15) الَّذِیْ كَذَّبَ وَ تَوَلّٰىﭤ(16) وَ سَیُجَنَّبُهَا الْاَتْقَى(17) الَّذِیْ یُؤْتِیْ مَالَهٗ یَتَزَكّٰى(18) وَ مَا لِاَحَدٍ عِنْدَهٗ مِنْ نِّعْمَةٍ تُجْزٰۤى(19)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ الشّمس (Surat Ash-Shams)</p>
+									<h2>وَٱلشَّمۡسِ وَضُحَٮٰهَا (﻿١﻿)﻿ وَٱلۡقَمَرِ إِذَا تَلَٮٰهَا (﻿٢﻿)﻿ وَٱلنَّہَارِ إِذَا جَلَّٮٰهَا (﻿٣﻿)﻿ وَٱلَّيۡلِ إِذَا يَغۡشَٮٰهَا (﻿٤﻿)﻿ وَٱلسَّمَآءِ وَمَا بَنَٮٰهَا (﻿٥﻿)﻿ وَٱلۡأَرۡضِ وَمَا طَحَٮٰهَا (﻿٦﻿)﻿ وَنَفۡسٍ۬ وَمَا سَوَّٮٰهَا (﻿٧﻿)﻿ فَأَلۡهَمَهَا فُجُورَهَا وَتَقۡوَٮٰهَا (﻿٨﻿)﻿ قَدۡ أَفۡلَحَ مَن زَكَّٮٰهَا (﻿٩﻿)﻿ وَقَدۡ خَابَ مَن دَسَّٮٰهَا (﻿١٠﻿)﻿ كَذَّبَتۡ ثَمُودُ بِطَغۡوَٮٰهَآ (﻿١١﻿)﻿ إِذِ ٱنۢبَعَثَ أَشۡقَٮٰهَا (﻿١٢﻿)﻿ فَقَالَ لَهُمۡ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقۡيَـٰهَا (﻿١٣﻿)﻿ فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمۡدَمَ عَلَيۡهِمۡ رَبُّهُم بِذَنۢبِهِمۡ فَسَوَّٮٰهَا (﻿١٤﻿)﻿ وَلَا يَخَافُ عُقۡبَـٰهَا (﻿١٥﻿)﻿
+									</h2>
+									<p>Surat ke-91 asy-Syams, artinya Matahari, 15 ayat. Surah ini fokus memperlihatkan ayat-ayat Allah dan nikmat-nikmatnya di alam semesta dan di dalam jiwa serta berbagai kondisinya, untuk membersihkan jiwa dan peringatan akan bahaya maksiat.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/091.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" href="#" >
+											<span id="091" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										</li>
+										<li onclick="window.open('whatsapp://send?text=وَ الشَّمْسِ وَ ضُحٰىهَا(1) وَ الْقَمَرِ اِذَا تَلٰىهَا(2) وَ النَّهَارِ اِذَا جَلّٰىهَا(3) وَ الَّیْلِ اِذَا یَغْشٰىهَا(4) وَ السَّمَآءِ وَ مَا بَنٰىهَا(5) وَ الْاَرْضِ وَ مَا طَحٰىهَا(6) وَ نَفْسٍ وَّ مَا سَوّٰىهَا(7) فَاَلْهَمَهَا فُجُوْرَهَا وَ تَقْوٰىهَا(8) قَدْ اَفْلَحَ مَنْ زَكّٰىهَا(9) وَ قَدْ خَابَ مَنْ دَسّٰىهَاﭤ(10) كَذَّبَتْ ثَمُوْدُ بِطَغْوٰىهَا(11) اِذِ انْۢبَعَثَ اَشْقٰىهَا(12) فَقَالَ لَهُمْ رَسُوْلُ اللّٰهِ نَاقَةَ اللّٰهِ وَ سُقْیٰهَاﭤ(13) فَكَذَّبُوْهُ فَعَقَرُوْهَاﭪ--فَدَمْدَمَ عَلَیْهِمْ رَبُّهُمْ بِذَنْۢبِهِمْ فَسَوّٰىهَا(14) وَ لَا یَخَافُ عُقْبٰهَا(15)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+					<div id="main">
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<p>سُوۡرَةُ البَلَد (Surat Al-Balad)</p>
+									<h2>لَآ أُقۡسِمُ بِہَـٰذَا ٱلۡبَلَدِ (﻿١﻿)﻿ وَأَنتَ حِلُّۢ بِہَـٰذَا ٱلۡبَلَدِ (﻿٢﻿)﻿ وَوَالِدٍ۬ وَمَا وَلَدَ (﻿٣﻿)﻿ لَقَدۡ خَلَقۡنَا ٱلۡإِنسَـٰنَ فِى كَبَدٍ (﻿٤﻿)﻿ أَيَحۡسَبُ أَن لَّن يَقۡدِرَ عَلَيۡهِ أَحَدٌ۬ (﻿٥﻿)﻿ يَقُولُ أَهۡلَكۡتُ مَالاً۬ لُّبَدًا (﻿٦﻿)﻿ أَيَحۡسَبُ أَن لَّمۡ يَرَهُ ۥۤ أَحَدٌ (﻿٧﻿)﻿ أَلَمۡ نَجۡعَل لَّهُ ۥ عَيۡنَيۡنِ (﻿٨﻿)﻿ وَلِسَانً۬ا وَشَفَتَيۡنِ (﻿٩﻿)﻿ وَهَدَيۡنَـٰهُ ٱلنَّجۡدَيۡنِ (﻿١٠﻿)﻿ فَلَا ٱقۡتَحَمَ ٱلۡعَقَبَةَ (﻿١١﻿)﻿ وَمَآ أَدۡرَٮٰكَ مَا ٱلۡعَقَبَةُ (﻿١٢﻿)﻿ فَكُّ رَقَبَةٍ (﻿١٣﻿)﻿ أَوۡ إِطۡعَـٰمٌ۬ فِى يَوۡمٍ۬ ذِى مَسۡغَبَةٍ۬ (﻿١٤﻿)﻿ يَتِيمً۬ا ذَا مَقۡرَبَةٍ (﻿١٥﻿)﻿ أَوۡ مِسۡكِينً۬ا ذَا مَتۡرَبَةٍ۬ (﻿١٦﻿)﻿ ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُواْ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ وَتَوَاصَوۡاْ بِٱلۡمَرۡحَمَةِ (﻿١٧﻿)﻿ أُوْلَـٰٓٮِٕكَ أَصۡحَـٰبُ ٱلۡمَيۡمَنَةِ (﻿١٨﻿)﻿ وَٱلَّذِينَ كَفَرُواْ بِـَٔايَـٰتِنَا هُمۡ أَصۡحَـٰبُ ٱلۡمَشۡـَٔمَةِ (﻿١٩﻿)﻿ عَلَيۡہِمۡ نَارٌ۬ مُّؤۡصَدَةُۢ (﻿٢٠﻿)﻿
+								</h2>
+									<p>Surat ke-90 al-Balad, artinya Negeri, 20 ayat. Berisikan penjelasan tentang kondisi manusia; ada yang bergelimang kekufuran dan siksa, ada juga yang naik menuju tangga rahmat dan iman dalam dua kehidupan.
+										</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<audio controls preload="none" class="audio">
+											<source src="mp3/090.mp3" type="audio/mpeg">
+										  Your browser does not support the audio element.
+										  </audio>
+									</ul>
+									<ul class="actions special">
+
+										<li>
+										<a  class="panel-group_btn" onclick="myFunction() href="#" >
+											<span id="090" class="like-btn">
+												<b style="color:#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10084;</b> Tandai sudah hafal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+										</a>
+										<li onclick="window.open('whatsapp://send?text=لَاۤ اُقْسِمُ بِهٰذَا الْبَلَدِ(1) وَ اَنْتَ حِلٌّۢ بِهٰذَا الْبَلَدِ(2) وَ وَالِدٍ وَّ مَا وَلَدَ(3) لَقَدْ خَلَقْنَا الْاِنْسَانَ فِیْ كَبَدٍﭤ(4) اَیَحْسَبُ اَنْ لَّنْ یَّقْدِرَ عَلَیْهِ اَحَدٌﭥ(5) یَقُوْلُ اَهْلَكْتُ مَالًا لُّبَدًاﭤ(6) اَیَحْسَبُ اَنْ لَّمْ یَرَهٗۤ اَحَدٌﭤ(7) اَلَمْ نَجْعَلْ لَّهٗ عَیْنَیْنِ(8) وَ لِسَانًا وَّ شَفَتَیْنِ(9) وَ هَدَیْنٰهُ النَّجْدَیْنِ(10) فَلَا اقْتَحَمَ الْعَقَبَةَ(11) وَ مَاۤ اَدْرٰىكَ مَا الْعَقَبَةُﭤ(12) فَكُّ رَقَبَةٍ(13) اَوْ اِطْعٰمٌ فِیْ یَوْمٍ ذِیْ مَسْغَبَةٍ(14) یَّتِیْمًا ذَا مَقْرَبَةٍ(15) اَوْ مِسْكِیْنًا ذَا مَتْرَبَةٍﭤ(16) ثُمَّ كَانَ مِنَ الَّذِیْنَ اٰمَنُوْا وَ تَوَاصَوْا بِالصَّبْرِ وَ تَوَاصَوْا بِالْمَرْحَمَةِﭤ(17) اُولٰٓىٕكَ اَصْحٰبُ الْمَیْمَنَةِﭤ(18) وَ الَّذِیْنَ كَفَرُوْا بِاٰیٰتِنَا هُمْ اَصْحٰبُ الْمَشْــٴَـمَةِﭤ(19)')"> <a href="#" class="button"><img class="whatsapp" src="images/wa.png" alt=""> Bagikan ke Whatsapp</a></li>
+										</li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Irhamna bil Quran</h2>
+							<p>Irhamna bil Quran (<u>I</u>badah <u>R</u>amadhanku <u>HA</u>rus ber<u>M</u>ak<u>NA</u> dan sta<u>BIL</u>  dengan al <u>QURAN</u>) adalah Program Tahfidz Ramdhan SMPN 21 Purworejo. Dikembangkan oleh Nur Azizah S.Pd.I dan Ahmad Farid Mubarok, S.Pd.I. Aplikasi ini ditenagai oleh Perpustakaan Twenty One.</p>
+							<ul class="actions">
+								<li><a href="tentang.html" class="button">Selengkapnya</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Tentang Aplikasi</h2>
+							<dl class="alt">
+								<dt>Pembuat</dt>
+								<dd>Perpustakaan Twenty One</dd>
+								<dt>Alamat</dt>
+								<dd>SMPN 21 Purworejo. Brunorejo, Kec. Bruno, Kab. Purworejo, Jawa Tengah</dd>
+								<dt>Audio</dt>
+								<dd>Audio Library Twenty One</dd>
+								<dt>Website</dt>
+								<dd><a href="https://library.smpn21purworejo.sch.id">https://library.smpn21purworejo.sch.id</a></dd>
+								<dt>Email</dt>
+								<dd><a href="#">library@smpn21purworejo.sch.id</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; 2023 SMPN 21 Purworejo<br/>All Right Reserved</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/localstorage.js"></script>
+
+	</body>
+</html>
